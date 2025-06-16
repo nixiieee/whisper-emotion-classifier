@@ -45,25 +45,13 @@ The model consists of:
 
 ## 📈 Model's metrics
 
-### Validation Set
-
-| Metric            | Value  |
-|-------------------|--------|
-| Accuracy          | 0.7722 |
-| Balanced Accuracy | 0.8055 |
-| Precision         | 0.8064 |
-| Recall            | 0.8055 |
-| F1 Score          | 0.8038 |
-
-### Test Set
-
-| Metric            | Value  |
-|-------------------|--------|
-| Accuracy          | 0.7473 |
-| Balanced Accuracy | 0.7741 |
-| Precision         | 0.7903 |
-| Recall            | 0.7741 |
-| F1 Score          | 0.7795 |
+| Metric            | Validation | Test   |
+|-------------------|------------|--------|
+| Accuracy          | 0.7722     | 0.7473 |
+| Balanced Accuracy | 0.8055     | 0.7741 |
+| Precision         | 0.8064     | 0.7903 |
+| Recall            | 0.8055     | 0.7741 |
+| F1 Score          | 0.8038     | 0.7795 |
 
 ---
 
