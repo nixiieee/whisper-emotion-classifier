@@ -50,7 +50,7 @@ The model consists of:
 #### Using [`uv`](https://github.com/astral-sh/uv) (recommended):
 
 ```bash
-uv venv -p 3.11
+uv venv venv -p 3.11
 source .venv/bin/activate  # or .venv\Scripts\activate on Windows
 uv pip install -r requirements.txt
 ```
@@ -67,7 +67,7 @@ pip install -r requirements.txt
 python3 inference/gradio_pipeline.py
 ```
 
-This will open a local Gradio interface for real-time emotion recognition from audio.
+This will open a local Gradio interface for real-time emotion recognition from audio or video (`.mp3`, `.mp4` and `.wav` formats are supported).
 
 ---
 
@@ -75,12 +75,8 @@ This will open a local Gradio interface for real-time emotion recognition from a
 
 We performed uncertainty estimation using:
 
-- 📘 `MC_dropout.ipynb`: Monte Carlo Dropout for evaluating prediction confidence
-- 📗 `bootstrap.ipynb`: Bootstrap analysis for statistical variability
-- 📙 `preprocess_data.ipynb`: Preprocessing steps — label mapping, splitting, etc.
+- `MC_dropout.ipynb`: Monte Carlo Dropout for evaluating prediction confidence
+- `bootstrap.ipynb`: Bootstrap analysis for statistical variability
+- `preprocess_data.ipynb`: Preprocessing steps — label mapping, splitting, etc.
 
 ---
-
-## ✅ Requirements
-
-Dependencies are listed in `requirements.txt`. Install with `uv` (recommended) or `pip`.
