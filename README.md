@@ -71,6 +71,31 @@ This will open a local Gradio interface for real-time emotion recognition from a
 
 ---
 
+## 📊 Logging & Tracking with Weights & Biases (W&B)
+
+During training, the model logs metrics and visualizations to [Weights & Biases](https://wandb.ai/):
+
+- Training & validation loss
+- Accuracy per epoch
+- Confusion matrix & misclassification analysis
+
+To enable logging, make sure you are logged in:
+
+```bash
+wandb login
+```
+
+By default, W&B is integrated in the training script:
+
+```python
+import wandb
+wandb.init(project="whisper-emotion")
+```
+
+You can monitor training in real time at [wandb.ai](https://wandb.ai/) or in your terminal.
+
+---
+
 ## 🧪 Experiments & Analysis
 
 We performed uncertainty estimation using:
