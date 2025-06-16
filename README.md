@@ -105,3 +105,11 @@ We performed uncertainty estimation using:
 - `preprocess_data.ipynb`: Preprocessing steps — label mapping, splitting, etc.
 
 ---
+
+## 📫 Contact
+
+For questions or collaboration ideas, feel free to reach out via GitHub Issues.
+
+---
+
+> Made with ❤️ for movie lovers and ML enthusiasts
