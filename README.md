@@ -1,7 +1,7 @@
 # whisper-emotion-classifier
 
 **Emotion classification from speech using Whisper encoder + MLP head**  
-Built on top of OpenAI's Whisper architecture, this project fine-tunes the encoder to classify emotions in Russian speech.
+The goal of the project is to fine-tune the model based on encoder of OpenAI's Whisper to classify emotions in Russian speech and to evaluate its quality using Monte Carlo methods.
 
 ---
 
