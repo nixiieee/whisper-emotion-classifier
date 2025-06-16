@@ -50,7 +50,7 @@ The model consists of:
 #### Using [`uv`](https://github.com/astral-sh/uv) (recommended):
 
 ```bash
-uv venv venv -p 3.11
+uv venv --python 3.11
 source .venv/bin/activate  # or .venv\Scripts\activate on Windows
 uv pip install -r requirements.txt
 ```
